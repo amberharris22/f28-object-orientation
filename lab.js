@@ -105,14 +105,14 @@ let {color, make, model, year} = carDetails
 
 function greeting( obj ) {
   //Code Here
-    // let {firstName: 'Amber', lastName: 'Harris', title: 'Mrs.'} = obj
-
+  let {firstName, lastName, title} = obj
 
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
 }
-// greeting()
+
+
 
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
@@ -235,7 +235,7 @@ class Wizard{
     console.log(`${this.name} has cast ${this.favoriteSpell}`)
 }
 }
-let Wiz = new Wizard('Harry', 15, 'freeze')
+let Wiz = new Wizard('Harry', 15, 'patronus')
 Wiz.castSpell()
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
